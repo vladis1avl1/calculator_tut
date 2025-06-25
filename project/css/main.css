@@ -1,0 +1,205 @@
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.container {
+    max-width: 1110px;
+    margin-left: auto;
+    margin-right: auto;
+}
+ 
+
+
+
+
+
+ /* header */
+
+.header { 
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    background-image: url(./../img/header/lico.jpg);
+
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.header-title {
+    margin: 0;
+    margin-bottom: 25px;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 130%;
+    text-align: center;
+    color: white;
+}
+.header-subtitle {
+    margin: 0;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+}
+
+.header-arrow {
+    width: 48px;
+    height: 48px;
+    position: absolute;
+    bottom:  30px;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+/*rabota*/
+
+.rabota {
+    padding-top: 80px;
+    padding-bottom: 115px;
+}
+
+.section-header {
+    margin: 0;
+    margin-bottom: 70px;
+    font-size: 46px;
+    font-weight: 700;
+    line-height: 130%;
+    text-align: center;
+    color: #000;
+}
+
+.rabota-cards-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card{
+    background-color: white;
+    max-width: 540px;
+    padding: 20px;
+    margin-bottom: 30px;
+    box-shadow: 0 10px 40px 0 rgba(126, 155, 189, 0.35);
+}
+
+.card:last-child, .card:nth-last-child(2) {
+    margin-bottom: 0;
+}
+    
+
+
+.card-img {
+    margin-bottom: 20px;
+}
+
+.card-title {
+    margin: 0;
+    margin: 13px;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 130%;
+    color: #000;
+}
+
+.card p {
+    margin: 0;
+    font-size: 16px;
+    line-height: 130%;
+    color: #000;
+}
+
+.din {
+    max-width: 1110px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #f3f3f3;
+    padding: 15px;
+}
+
+nav {
+    text-align: center; /* Центрирует навигацию */
+    padding: 20px 0; /* Отступы сверху и снизу */
+}
+
+nav ul {
+    list-style: none; /* Убирает маркеры списка */
+    padding: 0; /* Убирает отступы */
+    margin: 0; /* Убирает внешние отступы у списка */
+}
+
+nav ul li {
+    display: inline-block; /* Использует блочный уровень для размещения по горизонтали */
+    margin: 0 15px; /* Отступы между кнопками */
+}
+
+nav ul li a {
+    display: inline-block; /* Позволяет добавлять отступы и размеры к ссылкам */
+    padding: 10px 20px; /* Внутренние отступы для кнопок */
+    background: #4c4faf; /* Зеленый фон для кнопки */
+    color: white; /* Цвет текста */
+    text-decoration: none; /* Убирает подчеркивание текста */
+    border-radius: 5px; /* Закругленные углы кнопок */
+    transition: background 0.3s; /* Плавный переход цвета фона */
+}
+
+nav ul li a:hover {
+    background: #45a049; /* Темный цвет кнопки при наведении */
+}
+main {
+    padding: 20px;
+}
+
+.rabota {
+    margin-top: 20px;
+}
+
+.rabota-cards-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    margin: 10px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: calc(25% - 20px); /* 4 колонки */
+}
+
+.card-img {
+    max-width: 100%;
+    height: auto;
+}
